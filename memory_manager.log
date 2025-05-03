@@ -1,0 +1,793 @@
+2025-04-27 03:53:57,153 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 256MB and disk path .cache/storage
+2025-04-27 03:54:04,841 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at .cache\storage\mmap_storage.bin with size 536870912 bytes
+2025-04-27 03:54:04,945 - AdvancedMemoryManager - INFO - Connected to SQLite database at .cache\storage\metadata.db
+2025-04-27 03:54:05,001 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-04-27 03:54:05,003 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-04-27 03:54:05,003 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-04-27 03:54:05,005 - AdvancedMemoryManager - INFO - Serializing data for key example_key with format auto
+2025-04-27 03:54:05,006 - AdvancedMemoryManager - INFO - Compressing data for key example_key with algorithm auto
+2025-04-27 03:54:05,007 - AdvancedMemoryManager - ERROR - Compression failed with algorithm 'blosclz': compress() got an unexpected keyword argument 'cname'
+2025-04-27 03:54:05,008 - AdvancedMemoryManager - WARNING - Error testing compression algorithm blosclz: Compression failed with algorithm 'blosclz': compress() got an unexpected keyword argument 'cname'
+2025-04-27 03:54:05,009 - AdvancedMemoryManager - ERROR - Compression failed with algorithm 'blosc2': compress() got an unexpected keyword argument 'cname'
+2025-04-27 03:54:05,010 - AdvancedMemoryManager - WARNING - Error testing compression algorithm blosc2: Compression failed with algorithm 'blosc2': compress() got an unexpected keyword argument 'cname'
+2025-04-27 03:54:05,011 - AdvancedMemoryManager - INFO - Selected storage location memory for key example_key
+2025-04-27 03:54:05,012 - AdvancedMemoryManager - INFO - Successfully stored data for key example_key, size 206 bytes, compressed to 165 bytes
+2025-04-27 03:54:05,014 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key example_key
+2025-04-27 03:54:05,016 - AdvancedMemoryManager - INFO - Removing data for key example_key from memory
+2025-04-27 03:54:05,017 - AdvancedMemoryManager - INFO - Successfully removed data for key example_key
+2025-04-27 03:54:05,023 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-04-27 03:54:05,025 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-04-27 03:54:05,026 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db'
+2025-04-27 03:54:05,027 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db-shm'
+2025-04-27 03:54:05,028 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db-wal'
+2025-04-27 03:54:05,029 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 0 files, freed 0 bytes
+2025-04-27 03:54:05,030 - AdvancedMemoryManager - INFO - Memory usage below 70% threshold, skipping optimization
+2025-04-27 03:54:05,031 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-04-27 03:54:05,041 - AdvancedMemoryManager - ERROR - Compression failed with algorithm 'blosclz': compress() got an unexpected keyword argument 'cname'
+2025-04-27 03:54:05,045 - AdvancedMemoryManager - ERROR - Compression failed with algorithm 'blosc2': compress() got an unexpected keyword argument 'cname'
+2025-04-27 03:54:05,048 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-04-27 03:54:10,062 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-04-27 03:54:10,135 - AdvancedMemoryManager - INFO - Database connection closed
+2025-04-27 03:54:10,136 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-04-28 07:23:29,251 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 256MB and disk path .cache/storage
+2025-04-28 07:23:29,316 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at .cache\storage\mmap_storage.bin with size 536870912 bytes
+2025-04-28 07:23:29,340 - AdvancedMemoryManager - INFO - Connected to SQLite database at .cache\storage\metadata.db
+2025-04-28 07:23:29,341 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-04-28 07:23:29,343 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-04-28 07:23:29,343 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-04-28 07:23:29,345 - AdvancedMemoryManager - INFO - Serializing data for key example_key with format auto
+2025-04-28 07:23:29,348 - AdvancedMemoryManager - INFO - Compressing data for key example_key with algorithm auto
+2025-04-28 07:23:29,350 - AdvancedMemoryManager - INFO - Selected storage location memory for key example_key
+2025-04-28 07:23:29,396 - AdvancedMemoryManager - INFO - Successfully stored data for key example_key, size 206 bytes, compressed to 165 bytes
+2025-04-28 07:23:29,398 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key example_key
+2025-04-28 07:23:29,401 - AdvancedMemoryManager - INFO - Removing data for key example_key from memory
+2025-04-28 07:23:29,402 - AdvancedMemoryManager - INFO - Successfully removed data for key example_key
+2025-04-28 07:23:29,410 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-04-28 07:23:29,412 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-04-28 07:23:29,413 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db'
+2025-04-28 07:23:29,414 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db-shm'
+2025-04-28 07:23:29,415 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db-wal'
+2025-04-28 07:23:29,416 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 0 files, freed 0 bytes
+2025-04-28 07:23:29,417 - AdvancedMemoryManager - INFO - Memory usage below 5% threshold, skipping optimization
+2025-04-28 07:23:29,418 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-04-28 07:23:29,435 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-04-28 07:23:34,451 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-04-28 07:23:34,519 - AdvancedMemoryManager - INFO - Database connection closed
+2025-04-28 07:23:34,520 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-04-28 07:24:51,783 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 256MB and disk path .cache/storage
+2025-04-28 07:24:51,784 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at .cache\storage\mmap_storage.bin with size 536870912 bytes
+2025-04-28 07:24:51,789 - AdvancedMemoryManager - INFO - Connected to SQLite database at .cache\storage\metadata.db
+2025-04-28 07:24:51,789 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-04-28 07:24:51,791 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-04-28 07:24:51,791 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-04-28 07:24:51,792 - AdvancedMemoryManager - INFO - Serializing data for key example_key with format auto
+2025-04-28 07:24:51,794 - AdvancedMemoryManager - INFO - Compressing data for key example_key with algorithm auto
+2025-04-28 07:24:51,796 - AdvancedMemoryManager - INFO - Selected storage location memory for key example_key
+2025-04-28 07:24:52,108 - AdvancedMemoryManager - INFO - Successfully stored data for key example_key, size 206 bytes, compressed to 165 bytes
+2025-04-28 07:24:52,110 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key example_key
+2025-04-28 07:24:52,113 - AdvancedMemoryManager - INFO - Removing data for key example_key from memory
+2025-04-28 07:24:52,115 - AdvancedMemoryManager - INFO - Successfully removed data for key example_key
+2025-04-28 07:24:52,120 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-04-28 07:24:52,121 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-04-28 07:24:52,123 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db'
+2025-04-28 07:24:52,124 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db-shm'
+2025-04-28 07:24:52,125 - AdvancedMemoryManager - ERROR - Failed to delete file .cache\storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: '.cache\\storage\\metadata.db-wal'
+2025-04-28 07:24:52,129 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 0 files, freed 0 bytes
+2025-04-28 07:24:52,131 - AdvancedMemoryManager - INFO - Memory usage below 5% threshold, skipping optimization
+2025-04-28 07:24:52,132 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-04-28 07:24:52,148 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-04-28 07:24:57,163 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-04-28 07:24:57,261 - AdvancedMemoryManager - INFO - Database connection closed
+2025-04-28 07:24:57,261 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-04-29 07:49:11,900 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 256MB and disk path j:\MyStorage5
+2025-04-29 07:49:11,936 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at j:\MyStorage5\mmap_storage.bin with size 536870912 bytes
+2025-04-29 07:49:11,948 - AdvancedMemoryManager - INFO - Connected to SQLite database at j:\MyStorage5\metadata.db
+2025-04-29 07:49:11,948 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-04-29 07:49:11,951 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-04-29 07:49:11,952 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-04-29 07:49:11,953 - AdvancedMemoryManager - INFO - Serializing data for key example_key with format auto
+2025-04-29 07:49:11,956 - AdvancedMemoryManager - INFO - Compressing data for key example_key with algorithm auto
+2025-04-29 07:49:11,959 - AdvancedMemoryManager - INFO - Selected storage location memory for key example_key
+2025-04-29 07:49:12,004 - AdvancedMemoryManager - INFO - Successfully stored data for key example_key, size 206 bytes, compressed to 165 bytes
+2025-04-29 07:49:12,007 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key example_key
+2025-04-29 07:49:12,010 - AdvancedMemoryManager - INFO - Removing data for key example_key from memory
+2025-04-29 07:49:12,011 - AdvancedMemoryManager - INFO - Successfully removed data for key example_key
+2025-04-29 07:49:12,017 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-04-29 07:49:12,019 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-04-29 07:49:12,021 - AdvancedMemoryManager - ERROR - Failed to delete file j:\MyStorage5\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'j:\\MyStorage5\\metadata.db'
+2025-04-29 07:49:12,021 - AdvancedMemoryManager - ERROR - Failed to delete file j:\MyStorage5\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'j:\\MyStorage5\\metadata.db-shm'
+2025-04-29 07:49:12,022 - AdvancedMemoryManager - ERROR - Failed to delete file j:\MyStorage5\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'j:\\MyStorage5\\metadata.db-wal'
+2025-04-29 07:49:12,023 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 0 files, freed 0 bytes
+2025-04-29 07:49:12,025 - AdvancedMemoryManager - INFO - Memory usage below 60% threshold, skipping optimization
+2025-04-29 07:49:12,025 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-04-29 07:49:12,043 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-04-29 07:49:17,051 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-04-29 07:49:17,162 - AdvancedMemoryManager - INFO - Database connection closed
+2025-04-29 07:49:17,162 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:27:58,379 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:28:00,476 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:28:00,594 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:28:00,639 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:28:00,641 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:28:00,641 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:28:00,647 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:28:00,651 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:28:00,694 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:28:00,696 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851665 bytes
+2025-05-02 13:28:00,706 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:28:00,710 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:28:00,752 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:28:00,753 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851657 bytes
+2025-05-02 13:28:00,764 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:28:00,768 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:28:00,807 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:28:00,808 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851605 bytes
+2025-05-02 13:28:00,819 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:28:00,823 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:28:00,869 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:28:00,870 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851565 bytes
+2025-05-02 13:28:00,880 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:28:00,884 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:28:00,924 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:28:00,925 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851636 bytes
+2025-05-02 13:28:00,935 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:28:00,940 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:28:00,981 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:28:00,982 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859540 bytes
+2025-05-02 13:28:00,987 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:28:00,991 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:28:01,031 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:28:01,032 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859680 bytes
+2025-05-02 13:28:01,043 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:28:01,047 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:28:01,086 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:28:01,088 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859674 bytes
+2025-05-02 13:28:01,093 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:28:01,097 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:28:01,134 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:28:01,136 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859574 bytes
+2025-05-02 13:28:01,146 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:28:01,150 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:28:01,189 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:28:01,191 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859683 bytes
+2025-05-02 13:28:01,196 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:28:01,200 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:28:01,238 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:28:01,240 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859512 bytes
+2025-05-02 13:28:01,251 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:28:01,256 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:28:01,294 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:28:01,296 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859616 bytes
+2025-05-02 13:28:01,301 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:28:01,305 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:28:01,344 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:28:01,346 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859528 bytes
+2025-05-02 13:28:01,356 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:28:01,360 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:28:01,410 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:28:01,412 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859585 bytes
+2025-05-02 13:28:01,417 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:28:01,421 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:28:01,465 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:28:01,466 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859652 bytes
+2025-05-02 13:28:01,487 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:28:01,492 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:28:01,493 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:28:01,494 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:28:01,495 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:28:01,496 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 0 files, freed 0 bytes
+2025-05-02 13:28:01,498 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258138 bytes, limit 6400000 bytes
+2025-05-02 13:28:01,505 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851665 bytes
+2025-05-02 13:28:01,506 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851665 bytes to disk
+2025-05-02 13:28:01,508 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:28:01,527 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:28:01,530 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:28:01,535 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:28:01,542 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:28:01,549 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:28:01,554 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:28:06,570 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:28:06,779 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:28:06,779 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:28:06,784 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:28:06,797 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:28:06,800 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:28:06,800 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:28:06,804 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:28:06,804 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:28:06,810 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:28:06,813 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:28:06,852 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:28:06,894 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851799 bytes
+2025-05-02 13:28:06,906 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:28:06,910 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:28:06,950 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:28:06,952 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851541 bytes
+2025-05-02 13:28:06,963 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:28:06,967 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:28:07,006 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:28:07,007 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851614 bytes
+2025-05-02 13:28:07,017 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:28:07,022 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:28:07,061 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:28:07,063 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851753 bytes
+2025-05-02 13:28:07,073 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:28:07,077 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:28:07,116 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:28:07,117 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851692 bytes
+2025-05-02 13:28:07,128 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:28:07,134 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:28:07,173 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:28:07,175 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859596 bytes
+2025-05-02 13:28:07,180 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:28:07,184 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:28:07,222 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:28:07,224 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859607 bytes
+2025-05-02 13:28:07,233 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:28:07,237 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:28:07,277 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:28:07,279 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859718 bytes
+2025-05-02 13:28:07,284 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:28:07,288 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:28:07,332 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:28:07,334 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859643 bytes
+2025-05-02 13:28:07,344 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:28:07,348 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:28:07,387 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:28:07,389 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859591 bytes
+2025-05-02 13:28:07,392 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:28:07,397 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:28:07,447 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:28:07,449 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859635 bytes
+2025-05-02 13:28:07,459 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:28:07,464 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:28:07,503 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:28:07,505 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859618 bytes
+2025-05-02 13:28:07,510 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:28:07,513 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:28:07,559 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:28:07,561 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859618 bytes
+2025-05-02 13:28:07,570 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:28:07,575 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:28:07,615 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:28:07,617 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859640 bytes
+2025-05-02 13:28:07,622 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:28:07,626 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:28:07,666 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:28:07,667 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859621 bytes
+2025-05-02 13:28:07,689 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:28:07,690 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:28:07,693 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851665 bytes
+2025-05-02 13:28:07,694 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:28:07,695 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:28:07,699 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:28:07,700 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851665 bytes
+2025-05-02 13:28:07,701 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258409 bytes, limit 6400000 bytes
+2025-05-02 13:28:07,707 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851799 bytes
+2025-05-02 13:28:07,707 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851799 bytes to disk
+2025-05-02 13:28:07,708 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:28:07,726 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:28:07,731 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:28:07,734 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:28:07,738 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:28:07,742 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:28:07,743 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:28:12,754 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:28:12,984 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:28:12,985 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:31:32,401 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:31:32,424 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:31:32,427 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:31:32,428 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:31:32,430 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:31:32,430 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:31:32,434 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:31:32,439 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:31:32,478 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:31:32,519 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851577 bytes
+2025-05-02 13:31:32,530 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:31:32,534 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:31:32,573 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:31:32,575 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851647 bytes
+2025-05-02 13:31:32,586 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:31:32,590 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:31:32,628 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:31:32,630 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851667 bytes
+2025-05-02 13:31:32,639 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:31:32,643 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:31:32,683 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:31:32,685 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851650 bytes
+2025-05-02 13:31:32,695 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:31:32,699 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:31:32,739 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:31:32,740 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851694 bytes
+2025-05-02 13:31:32,751 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:31:32,755 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:31:32,794 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:31:32,797 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859637 bytes
+2025-05-02 13:31:32,801 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:31:32,804 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:31:32,849 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:31:32,851 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859674 bytes
+2025-05-02 13:31:32,860 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:31:32,863 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:31:32,903 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:31:32,905 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859676 bytes
+2025-05-02 13:31:32,910 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:31:32,914 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:31:32,958 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:31:32,961 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859600 bytes
+2025-05-02 13:31:32,973 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:31:32,979 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:31:33,038 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:31:33,039 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859686 bytes
+2025-05-02 13:31:33,046 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:31:33,052 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:31:33,098 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:31:33,100 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859586 bytes
+2025-05-02 13:31:33,114 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:31:33,120 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:31:33,183 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:31:33,185 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859602 bytes
+2025-05-02 13:31:33,189 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:31:33,192 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:31:33,237 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:31:33,239 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859610 bytes
+2025-05-02 13:31:33,247 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:31:33,252 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:31:33,293 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:31:33,295 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859680 bytes
+2025-05-02 13:31:33,298 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:31:33,302 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:31:33,348 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:31:33,350 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859638 bytes
+2025-05-02 13:31:33,361 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:31:33,362 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:31:33,365 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851799 bytes
+2025-05-02 13:31:33,367 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:31:33,367 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:31:33,368 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:31:33,369 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851799 bytes
+2025-05-02 13:31:33,369 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258245 bytes, limit 6400000 bytes
+2025-05-02 13:31:33,374 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851577 bytes
+2025-05-02 13:31:33,374 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851577 bytes to disk
+2025-05-02 13:31:33,378 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:31:33,387 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:31:33,390 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:31:33,391 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:31:33,398 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:31:33,399 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:31:33,399 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:31:38,414 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:31:38,621 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:31:38,622 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:31:38,624 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:31:38,637 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:31:38,640 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:31:38,640 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:31:38,641 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:31:38,641 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:31:38,643 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:31:38,648 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:31:38,688 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:31:38,730 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851671 bytes
+2025-05-02 13:31:38,739 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:31:38,742 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:31:38,781 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:31:38,782 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851752 bytes
+2025-05-02 13:31:38,788 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:31:38,792 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:31:38,830 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:31:38,831 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851740 bytes
+2025-05-02 13:31:38,839 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:31:38,843 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:31:38,883 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:31:38,884 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851833 bytes
+2025-05-02 13:31:38,890 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:31:38,894 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:31:38,938 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:31:38,940 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851650 bytes
+2025-05-02 13:31:38,948 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:31:38,952 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:31:38,993 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:31:38,995 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859712 bytes
+2025-05-02 13:31:38,998 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:31:39,002 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:31:39,040 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:31:39,042 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859581 bytes
+2025-05-02 13:31:39,050 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:31:39,054 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:31:39,093 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:31:39,095 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859609 bytes
+2025-05-02 13:31:39,099 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:31:39,102 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:31:39,139 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:31:39,141 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859579 bytes
+2025-05-02 13:31:39,150 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:31:39,154 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:31:39,201 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:31:39,203 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859679 bytes
+2025-05-02 13:31:39,206 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:31:39,209 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:31:39,250 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:31:39,251 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859617 bytes
+2025-05-02 13:31:39,259 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:31:39,263 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:31:39,303 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:31:39,305 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859637 bytes
+2025-05-02 13:31:39,307 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:31:39,311 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:31:39,351 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:31:39,353 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859590 bytes
+2025-05-02 13:31:39,360 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:31:39,364 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:31:39,406 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:31:39,407 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859668 bytes
+2025-05-02 13:31:39,410 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:31:39,415 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:31:39,454 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:31:39,456 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859643 bytes
+2025-05-02 13:31:39,468 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:31:39,468 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:31:39,470 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851577 bytes
+2025-05-02 13:31:39,471 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:31:39,472 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:31:39,472 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:31:39,473 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851577 bytes
+2025-05-02 13:31:39,474 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258656 bytes, limit 6400000 bytes
+2025-05-02 13:31:39,481 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851671 bytes
+2025-05-02 13:31:39,481 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851671 bytes to disk
+2025-05-02 13:31:39,481 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:31:39,491 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:31:39,494 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:31:39,498 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:31:39,500 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:31:39,502 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:31:39,505 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:31:44,508 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:31:44,732 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:31:44,733 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:33:17,562 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:33:17,574 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:33:17,578 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:33:17,578 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:33:17,579 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:33:17,579 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:33:17,582 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:33:17,586 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:33:17,628 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:33:17,688 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851555 bytes
+2025-05-02 13:33:17,696 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:33:17,700 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:33:17,741 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:33:17,743 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851613 bytes
+2025-05-02 13:33:17,750 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:33:17,754 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:33:17,793 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:33:17,794 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851688 bytes
+2025-05-02 13:33:17,802 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:33:17,806 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:33:17,846 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:33:17,848 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851552 bytes
+2025-05-02 13:33:17,856 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:33:17,860 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:33:17,898 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:33:17,899 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851621 bytes
+2025-05-02 13:33:17,907 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:33:17,911 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:33:17,954 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:33:17,956 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859564 bytes
+2025-05-02 13:33:17,958 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:33:17,961 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:33:18,013 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:33:18,015 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859595 bytes
+2025-05-02 13:33:18,024 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:33:18,028 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:33:18,068 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:33:18,070 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859674 bytes
+2025-05-02 13:33:18,072 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:33:18,076 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:33:18,113 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:33:18,115 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859700 bytes
+2025-05-02 13:33:18,123 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:33:18,127 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:33:18,164 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:33:18,166 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859568 bytes
+2025-05-02 13:33:18,169 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:33:18,173 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:33:18,230 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:33:18,232 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859537 bytes
+2025-05-02 13:33:18,243 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:33:18,247 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:33:18,286 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:33:18,288 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859681 bytes
+2025-05-02 13:33:18,291 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:33:18,294 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:33:18,332 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:33:18,334 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859668 bytes
+2025-05-02 13:33:18,341 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:33:18,345 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:33:18,382 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:33:18,385 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859766 bytes
+2025-05-02 13:33:18,387 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:33:18,391 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:33:18,428 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:33:18,430 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859596 bytes
+2025-05-02 13:33:18,442 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:33:18,442 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:33:18,445 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851671 bytes
+2025-05-02 13:33:18,445 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:33:18,446 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:33:18,447 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:33:18,451 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851671 bytes
+2025-05-02 13:33:18,452 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258039 bytes, limit 6400000 bytes
+2025-05-02 13:33:18,456 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851555 bytes
+2025-05-02 13:33:18,456 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851555 bytes to disk
+2025-05-02 13:33:18,457 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:33:18,469 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:33:18,471 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:33:18,474 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:33:18,477 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:33:18,483 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:33:18,484 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:33:23,487 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:33:23,700 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:33:23,701 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:33:23,703 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:33:23,725 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:33:23,728 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:33:23,729 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:33:23,729 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:33:23,729 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:33:23,732 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:33:23,737 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:33:23,777 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:33:23,810 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851633 bytes
+2025-05-02 13:33:23,818 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:33:23,822 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:33:23,860 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:33:23,861 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851667 bytes
+2025-05-02 13:33:23,870 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:33:23,873 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:33:23,914 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:33:23,916 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851580 bytes
+2025-05-02 13:33:23,923 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:33:23,927 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:33:23,965 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:33:23,967 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851594 bytes
+2025-05-02 13:33:23,974 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:33:23,978 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:33:24,024 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:33:24,025 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851711 bytes
+2025-05-02 13:33:24,032 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:33:24,036 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:33:24,076 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:33:24,077 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859563 bytes
+2025-05-02 13:33:24,079 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:33:24,084 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:33:24,122 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:33:24,124 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859504 bytes
+2025-05-02 13:33:24,132 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:33:24,136 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:33:24,175 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:33:24,177 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859665 bytes
+2025-05-02 13:33:24,180 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:33:24,184 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:33:24,224 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:33:24,226 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859576 bytes
+2025-05-02 13:33:24,234 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:33:24,237 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:33:24,278 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:33:24,280 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859622 bytes
+2025-05-02 13:33:24,284 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:33:24,289 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:33:24,325 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:33:24,327 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859719 bytes
+2025-05-02 13:33:24,336 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:33:24,340 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:33:24,379 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:33:24,381 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859543 bytes
+2025-05-02 13:33:24,384 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:33:24,388 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:33:24,426 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:33:24,427 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859688 bytes
+2025-05-02 13:33:24,437 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:33:24,440 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:33:24,479 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:33:24,480 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859678 bytes
+2025-05-02 13:33:24,484 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:33:24,487 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:33:24,526 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:33:24,528 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859543 bytes
+2025-05-02 13:33:24,540 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:33:24,541 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:33:24,543 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851555 bytes
+2025-05-02 13:33:24,544 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:33:24,545 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:33:24,545 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:33:24,546 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851555 bytes
+2025-05-02 13:33:24,546 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258195 bytes, limit 6400000 bytes
+2025-05-02 13:33:24,552 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851633 bytes
+2025-05-02 13:33:24,554 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851633 bytes to disk
+2025-05-02 13:33:24,555 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:33:24,564 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:33:24,567 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:33:24,571 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:33:24,574 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:33:24,576 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:33:24,576 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:33:29,583 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:33:29,800 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:33:29,801 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:34:49,612 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:34:49,625 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:34:49,628 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:34:49,629 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:34:49,629 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:34:49,629 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:34:49,632 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:34:49,636 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:34:49,675 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:34:49,733 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851712 bytes
+2025-05-02 13:34:49,742 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:34:49,746 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:34:49,785 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:34:49,787 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851443 bytes
+2025-05-02 13:34:49,796 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:34:49,800 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:34:49,843 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:34:49,844 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851637 bytes
+2025-05-02 13:34:49,850 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:34:49,854 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:34:49,897 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:34:49,899 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851656 bytes
+2025-05-02 13:34:49,907 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:34:49,910 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:34:49,950 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:34:49,951 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851565 bytes
+2025-05-02 13:34:49,959 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:34:49,963 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:34:50,001 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:34:50,003 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859592 bytes
+2025-05-02 13:34:50,005 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:34:50,009 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:34:50,047 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:34:50,049 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 860045 bytes
+2025-05-02 13:34:50,056 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:34:50,060 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:34:50,103 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:34:50,106 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859676 bytes
+2025-05-02 13:34:50,108 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:34:50,112 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:34:50,151 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:34:50,153 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859484 bytes
+2025-05-02 13:34:50,161 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:34:50,165 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:34:50,203 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:34:50,206 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859534 bytes
+2025-05-02 13:34:50,208 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:34:50,212 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:34:50,250 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:34:50,252 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859637 bytes
+2025-05-02 13:34:50,260 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:34:50,264 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:34:50,303 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:34:50,305 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859649 bytes
+2025-05-02 13:34:50,308 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:34:50,312 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:34:50,352 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:34:50,354 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859591 bytes
+2025-05-02 13:34:50,362 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:34:50,366 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:34:50,406 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:34:50,408 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859537 bytes
+2025-05-02 13:34:50,411 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:34:50,415 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:34:50,453 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:34:50,457 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859565 bytes
+2025-05-02 13:34:50,468 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:34:50,468 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:34:50,471 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851633 bytes
+2025-05-02 13:34:50,474 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:34:50,475 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:34:50,476 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:34:50,476 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851633 bytes
+2025-05-02 13:34:50,477 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258023 bytes, limit 6400000 bytes
+2025-05-02 13:34:50,481 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851712 bytes
+2025-05-02 13:34:50,481 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851712 bytes to disk
+2025-05-02 13:34:50,482 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:34:50,493 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:34:50,496 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:34:50,499 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:34:50,503 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:34:50,509 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:34:50,509 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:34:55,512 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:34:55,735 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:34:55,735 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
+2025-05-02 13:34:55,739 - AdvancedMemoryManager - INFO - Initializing AdvancedMemoryManager with memory limit 10MB and disk path ./test_storage
+2025-05-02 13:34:55,751 - AdvancedMemoryManager - INFO - Initialized memory-mapped file at test_storage\mmap_storage.bin with size 128000000 bytes
+2025-05-02 13:34:55,754 - AdvancedMemoryManager - INFO - Connected to SQLite database at test_storage\metadata.db
+2025-05-02 13:34:55,754 - AdvancedMemoryManager - INFO - Database schema initialized successfully
+2025-05-02 13:34:55,755 - AdvancedMemoryManager - INFO - Background optimizer thread started
+2025-05-02 13:34:55,755 - AdvancedMemoryManager - INFO - AdvancedMemoryManager initialized successfully
+2025-05-02 13:34:55,758 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_0 with format auto
+2025-05-02 13:34:55,762 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_0 with algorithm auto
+2025-05-02 13:34:55,802 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_0
+2025-05-02 13:34:55,844 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_0, size 1000173 bytes, compressed to 851646 bytes
+2025-05-02 13:34:55,853 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_1 with format auto
+2025-05-02 13:34:55,859 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_1 with algorithm auto
+2025-05-02 13:34:55,904 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_1
+2025-05-02 13:34:55,906 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_1, size 1000173 bytes, compressed to 851617 bytes
+2025-05-02 13:34:55,913 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_2 with format auto
+2025-05-02 13:34:55,917 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_2 with algorithm auto
+2025-05-02 13:34:55,957 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_2
+2025-05-02 13:34:55,959 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_2, size 1000173 bytes, compressed to 851611 bytes
+2025-05-02 13:34:55,966 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_3 with format auto
+2025-05-02 13:34:55,969 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_3 with algorithm auto
+2025-05-02 13:34:56,009 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_3
+2025-05-02 13:34:56,011 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_3, size 1000173 bytes, compressed to 851659 bytes
+2025-05-02 13:34:56,018 - AdvancedMemoryManager - INFO - Serializing data for key memory_key_4 with format auto
+2025-05-02 13:34:56,022 - AdvancedMemoryManager - INFO - Compressing data for key memory_key_4 with algorithm auto
+2025-05-02 13:34:56,060 - AdvancedMemoryManager - INFO - Selected storage location memory for key memory_key_4
+2025-05-02 13:34:56,061 - AdvancedMemoryManager - INFO - Successfully stored data for key memory_key_4, size 1000173 bytes, compressed to 851654 bytes
+2025-05-02 13:34:56,068 - AdvancedMemoryManager - INFO - Serializing data for key key_0 with format auto
+2025-05-02 13:34:56,072 - AdvancedMemoryManager - INFO - Compressing data for key key_0 with algorithm auto
+2025-05-02 13:34:56,119 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_0
+2025-05-02 13:34:56,122 - AdvancedMemoryManager - INFO - Successfully stored data for key key_0, size 1000166 bytes, compressed to 859708 bytes
+2025-05-02 13:34:56,124 - AdvancedMemoryManager - INFO - Serializing data for key key_1 with format auto
+2025-05-02 13:34:56,128 - AdvancedMemoryManager - INFO - Compressing data for key key_1 with algorithm auto
+2025-05-02 13:34:56,167 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_1
+2025-05-02 13:34:56,168 - AdvancedMemoryManager - INFO - Successfully stored data for key key_1, size 1000166 bytes, compressed to 859582 bytes
+2025-05-02 13:34:56,176 - AdvancedMemoryManager - INFO - Serializing data for key key_2 with format auto
+2025-05-02 13:34:56,180 - AdvancedMemoryManager - INFO - Compressing data for key key_2 with algorithm auto
+2025-05-02 13:34:56,220 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_2
+2025-05-02 13:34:56,221 - AdvancedMemoryManager - INFO - Successfully stored data for key key_2, size 1000166 bytes, compressed to 859636 bytes
+2025-05-02 13:34:56,224 - AdvancedMemoryManager - INFO - Serializing data for key key_3 with format auto
+2025-05-02 13:34:56,228 - AdvancedMemoryManager - INFO - Compressing data for key key_3 with algorithm auto
+2025-05-02 13:34:56,266 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_3
+2025-05-02 13:34:56,268 - AdvancedMemoryManager - INFO - Successfully stored data for key key_3, size 1000166 bytes, compressed to 859671 bytes
+2025-05-02 13:34:56,275 - AdvancedMemoryManager - INFO - Serializing data for key key_4 with format auto
+2025-05-02 13:34:56,278 - AdvancedMemoryManager - INFO - Compressing data for key key_4 with algorithm auto
+2025-05-02 13:34:56,318 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_4
+2025-05-02 13:34:56,320 - AdvancedMemoryManager - INFO - Successfully stored data for key key_4, size 1000166 bytes, compressed to 859588 bytes
+2025-05-02 13:34:56,322 - AdvancedMemoryManager - INFO - Serializing data for key key_5 with format auto
+2025-05-02 13:34:56,326 - AdvancedMemoryManager - INFO - Compressing data for key key_5 with algorithm auto
+2025-05-02 13:34:56,364 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_5
+2025-05-02 13:34:56,366 - AdvancedMemoryManager - INFO - Successfully stored data for key key_5, size 1000166 bytes, compressed to 859544 bytes
+2025-05-02 13:34:56,374 - AdvancedMemoryManager - INFO - Serializing data for key key_6 with format auto
+2025-05-02 13:34:56,378 - AdvancedMemoryManager - INFO - Compressing data for key key_6 with algorithm auto
+2025-05-02 13:34:56,420 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_6
+2025-05-02 13:34:56,422 - AdvancedMemoryManager - INFO - Successfully stored data for key key_6, size 1000166 bytes, compressed to 859470 bytes
+2025-05-02 13:34:56,425 - AdvancedMemoryManager - INFO - Serializing data for key key_7 with format auto
+2025-05-02 13:34:56,429 - AdvancedMemoryManager - INFO - Compressing data for key key_7 with algorithm auto
+2025-05-02 13:34:56,468 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_7
+2025-05-02 13:34:56,470 - AdvancedMemoryManager - INFO - Successfully stored data for key key_7, size 1000166 bytes, compressed to 859657 bytes
+2025-05-02 13:34:56,478 - AdvancedMemoryManager - INFO - Serializing data for key key_8 with format auto
+2025-05-02 13:34:56,481 - AdvancedMemoryManager - INFO - Compressing data for key key_8 with algorithm auto
+2025-05-02 13:34:56,525 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_8
+2025-05-02 13:34:56,526 - AdvancedMemoryManager - INFO - Successfully stored data for key key_8, size 1000166 bytes, compressed to 859657 bytes
+2025-05-02 13:34:56,529 - AdvancedMemoryManager - INFO - Serializing data for key key_9 with format auto
+2025-05-02 13:34:56,532 - AdvancedMemoryManager - INFO - Compressing data for key key_9 with algorithm auto
+2025-05-02 13:34:56,573 - AdvancedMemoryManager - INFO - Selected storage location hybrid for key key_9
+2025-05-02 13:34:56,574 - AdvancedMemoryManager - INFO - Successfully stored data for key key_9, size 1000166 bytes, compressed to 859590 bytes
+2025-05-02 13:34:56,585 - AdvancedMemoryManager - INFO - Running manual optimization
+2025-05-02 13:34:56,585 - AdvancedMemoryManager - INFO - Running disk space cleanup
+2025-05-02 13:34:56,588 - AdvancedMemoryManager - INFO - Deleted unreferenced file test_storage\69a6677e6806a5f16e916e9cc9fc9c8f.bin, freed 851712 bytes
+2025-05-02 13:34:56,589 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db'
+2025-05-02 13:34:56,590 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-shm: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-shm'
+2025-05-02 13:34:56,590 - AdvancedMemoryManager - ERROR - Failed to delete file test_storage\metadata.db-wal: [WinError 32] The process cannot access the file because it is being used by another process: 'test_storage\\metadata.db-wal'
+2025-05-02 13:34:56,591 - AdvancedMemoryManager - INFO - Disk cleanup complete: deleted 1 files, freed 851712 bytes
+2025-05-02 13:34:56,591 - AdvancedMemoryManager - INFO - Optimizing memory usage: current 4258197 bytes, limit 6400000 bytes
+2025-05-02 13:34:56,596 - AdvancedMemoryManager - INFO - Moved key memory_key_0 from memory to disk, size 851646 bytes
+2025-05-02 13:34:56,598 - AdvancedMemoryManager - INFO - Memory optimization complete: moved 1 items, 851646 bytes to disk
+2025-05-02 13:34:56,598 - AdvancedMemoryManager - INFO - Manual optimization complete: deduplicated 0 items, saved 0 bytes
+2025-05-02 13:34:56,607 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_0
+2025-05-02 13:34:56,611 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_1
+2025-05-02 13:34:56,614 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_2
+2025-05-02 13:34:56,616 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_3
+2025-05-02 13:34:56,619 - AdvancedMemoryManager - INFO - Successfully retrieved and deserialized data for key memory_key_4
+2025-05-02 13:34:56,619 - AdvancedMemoryManager - INFO - Shutting down Advanced Memory Manager...
+2025-05-02 13:35:01,634 - AdvancedMemoryManager - WARNING - Background thread did not terminate gracefully
+2025-05-02 13:35:01,868 - AdvancedMemoryManager - INFO - Database connection closed
+2025-05-02 13:35:01,869 - AdvancedMemoryManager - INFO - Advanced Memory Manager shutdown complete
