@@ -1,0 +1,37 @@
+Sammy Jernigan
+Advanced Memory Manager
+All rights reserved.
+
+This software and its source code are the exclusive property of Sammy Jernigan (Ocean82). No part of this codebase may be copied, modified, distributed, or used in any form without express written permission.
+
+This project is shared solely for the purpose of private review and collaboration. Unauthorized use or replication is strictly prohibited.
+
+ODEN-Pact v1 License
+
+By using, modifying, or redistributing any part of this software or derivative works, you agree to the following terms:
+
+1. Non-Commercial Use Only  
+   This software and its derivatives may not be used for any commercial purpose, whether direct or indirect, without explicit, written permission from the original creator.
+
+2. Attribution Required  
+   All usage must clearly attribute the original creator as: "Sammy Jernigan "Ocean82, Creator of Advanced Memory Manager" in visible documentation and metadata.
+
+3. Derivatives & Distribution  
+   Modified versions must retain this license, include full attribution, and may not be redistributed for profit.
+
+4. Permission for Extensions  
+   Any attempt to extend, fork, bundle, or deploy derivative products (even if non-monetized) requires prior consent from the creator.
+
+5. Liability Disclaimer  
+   This software is provided "as is" without warranty of any kind. The creator shall not be held liable for any damages arising from use.
+
+6. Audit Trail  
+   Redistribution must include a public changelog, visible contributor history, and UID-threaded logs for verification.
+
+7. Revocation Clause  
+   Use rights may be revoked if terms are violated, including undisclosed monetization, rebranding, or removal of attribution.
+
+Signed: Sammy  Jernigan
+Date: 2025-07-27  
+UID: Advanced_memory_manager-sammyjernigan-lock-0427
+© 2025 Sammy. All rights reserved.
